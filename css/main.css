@@ -1,0 +1,21 @@
+html, body {
+    background-color: #431B29;
+}
+
+
+#bird {
+  width:100%;
+}
+
+#body {
+    fill: #D01E4F;
+}
+
+#pupil {
+    fill: #000;
+}
+
+
+#eye {
+    fill: #fff;
+}
