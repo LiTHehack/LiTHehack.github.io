@@ -19,15 +19,13 @@ http://www.adtrak.co.uk/blog/font-face-chrome-rendering/
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
 	@font-face {
 		font-family: 'Source Sans Pro';
-		font-style: normal;
 		font-weight: 700;
-		src: url("../fonts/SourceSansPro-Bold.svg#OpenSans") format("svg") !important;
+		src: url("../fonts/SourceSansPro-Bold.svg") format("svg") !important;
 	}
 	@font-face {
 		font-family: 'Source Sans Pro';
-		font-style: normal;
 		font-weight: 300;
-		src: url("../fonts/SourceSansPro-Light.svg#OpenSans") format("svg") !important;
+		src: url("../fonts/SourceSansPro-Light.svg") format("svg") !important;
 	}
 }
 
