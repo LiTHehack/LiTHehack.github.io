@@ -12,6 +12,7 @@
     var mouseX = 0;
     var mouseY = 0;
 
+    var clicked = false;
     var onMove = function (evt) {
         var xFactor = 50/window.innerWidth;
         var yFactor = 50/window.innerHeight;
@@ -20,14 +21,25 @@
         mouseY = yFactor*(evt.pageY - top);
     };
 
+    var onClick = function(evt){
+        clicked = (clicked) ? false : true;
+	console.log(clicked);
+    }
+
     document.addEventListener('mousemove', onMove);
+    document.addEventListener('mousedown', onClick);
+    document.addEventListener('mouseup', onClick);
 
     (function animate() {
         var theta = Math.atan2(mouseY, mouseX);
         var r = Math.sqrt(mouseY*mouseY + mouseX*mouseX);
         
         r = Math.min(r, 10);
-        
+        if(clicked)
+        {
+           theta = Math.random()*3.14*2; 
+           r = Math.min(Math.random()*10,10);
+        }
         var x = originalX + r*Math.cos(theta);
         var y = originalY + r*Math.sin(theta);
         
