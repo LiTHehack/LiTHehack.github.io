@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/ODelI1aHBYDBqgeIAH2zlNHq-FFgoDNV3GTKpHwuvtI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/toadOcfmlt9b38dHJxOBGIqjGYJUyOXcBwUQbRaNH6c.woff) format('woff');
+}
+
+html, body {
+    background-color: #431B29;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Typography! */
+h1, h2, h3 {
+	/*color: #D01E4F;*/
+	font-weight: bold;
+}
+h1 {
+	font-size: 300%;
+}
+
+/* Links! */
+a {
+	color: #fff;
+	border-bottom: 1px dotted #fff;
+	-webkit-transition: all 0.1s ease-in-out;
+	   -moz-transition: all 0.1s ease-in-out;
+	    -ms-transition: all 0.1s ease-in-out;
+	     -o-transition: all 0.1s ease-in-out;
+			transition: all 0.1s ease-in-out;
+}
+a:hover {
+	border-bottom: 1px solid #D01E4F;
+	color: #D01E4F;
+	text-decoration: none;
+}
+
+/* More specific */
+.schedule .row {
+	margin-bottom: 10px;
+}
+
+/* Dat bird though. Mhm. */
+#bird {
+	width:100%;
+}
+
+#body {
+    fill: #D01E4F;
+}
+
+#pupil {
+    fill: #000;
+}
+
+
+#eye {
+    fill: #fff;
+}
