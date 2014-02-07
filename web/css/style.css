@@ -21,13 +21,13 @@ http://www.adtrak.co.uk/blog/font-face-chrome-rendering/
 		font-family: 'Source Sans Pro';
 		font-style: normal;
 		font-weight: 700;
-		src: url("/web/font/SourceSansPro-Bold.svg#OpenSans") format("svg") !important;
+		src: url("../fonts/SourceSansPro-Bold.svg#OpenSans") format("svg") !important;
 	}
 	@font-face {
 		font-family: 'Source Sans Pro';
 		font-style: normal;
 		font-weight: 300;
-		src: url("/web/font/SourceSansPro-Light.svg#OpenSans") format("svg") !important;
+		src: url("../fonts/SourceSansPro-Light.svg#OpenSans") format("svg") !important;
 	}
 }
 
