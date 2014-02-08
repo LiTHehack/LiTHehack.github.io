@@ -23,7 +23,6 @@
 
     var onClick = function(evt){
         clicked = (clicked) ? false : true;
-	console.log(clicked);
     }
 
     document.addEventListener('mousemove', onMove);
