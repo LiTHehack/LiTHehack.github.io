@@ -342,4 +342,17 @@ http://lithehack.se
 https://facebook.com/lithehack
 https://twitter.com/lithehack
 END:VEVENT
+BEGIN:VEVENT
+UID:4b4b85ec266d5487676fbcb7be9ba8dc@lithehack.se
+DTSTAMP:20140313T161500Z
+DTSTART:20140313T161500Z
+DTEND:20140313T180000Z
+SUMMARY:Git-föreläsning med LiTHehack
+LOCATION:TP1, Campus Norrköping
+DESCRIPTION:LiTHehack ordnar en lunchföreläsning om Git och versionshantering. Läs mer på Facebook: http://on.fb.me/1ehcmqU.
+
+http://lithehack.se
+https://facebook.com/lithehack
+https://twitter.com/lithehack
+END:VEVENT
 END:VCALENDAR
