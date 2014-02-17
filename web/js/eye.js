@@ -36,8 +36,9 @@
         r = Math.min(r, 10);
         if(clicked)
         {
-           theta = Math.random()*3.14*2; 
-           r = Math.min(Math.random()*10,10);
+           theta = new Date().getTime()/25;
+           r = 10;
+
         }
         var x = originalX + r*Math.cos(theta);
         var y = originalY + r*Math.sin(theta);
