@@ -1,32 +1,27 @@
-@font-face {
-	font-family: 'Source Sans Pro';
-	font-style: normal;
-	font-weight: 300;
-	src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/toadOcfmlt9b38dHJxOBGMVNtom4QlEDNJaqqqzqdSs.woff) format('woff');
-}
-@font-face {
-	font-family: 'Source Sans Pro';
-	font-style: normal;
-	font-weight: 700;
-	src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/toadOcfmlt9b38dHJxOBGIqjGYJUyOXcBwUQbRaNH6c.woff) format('woff');
-}
+
 /*
 font-fix
-om du någonsin fastnar med fula typsnitt i chrome på windows, läs detta (och skit i google
-web fonts):
 http://www.adtrak.co.uk/blog/font-face-chrome-rendering/
 */
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-	@font-face {
-		font-family: 'Source Sans Pro';
-		font-weight: 700;
-		src: url("../fonts/SourceSansPro-Bold.svg") format("svg") !important;
-	}
-	@font-face {
-		font-family: 'Source Sans Pro';
-		font-weight: 300;
-		src: url("../fonts/SourceSansPro-Light.svg") format("svg") !important;
-	}
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url('../fonts/SourceSansPro-Light.eot');
+	src: url('../fonts/SourceSansPro-Light.eot?#iefix') format('eot'),
+		 url('../fonts/SourceSansPro-Light.svg') format('svg'),
+		 url('../fonts/SourceSansPro-Light.woff') format('woff'),
+		 url('../fonts/SourceSansPro-Light.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 300;
+}
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url('../fonts/SourceSansPro-Bold.eot');
+	src: url('../fonts/SourceSansPro-Bold.eot?#iefix') format('eot'),
+		 url('../fonts/SourceSansPro-Bold.svg') format('svg'),
+		 url('../fonts/SourceSansPro-Bold.woff') format('woff'),
+		 url('../fonts/SourceSansPro-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 700;
 }
 
 html, body {
