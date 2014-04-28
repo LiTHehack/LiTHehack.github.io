@@ -355,4 +355,82 @@ http://lithehack.se
 https://facebook.com/lithehack
 https://twitter.com/lithehack
 END:VEVENT
+BEGIN:VEVENT
+UID:4b4b85ec266d5487676fbcb7be9ba8dc@lithehack.se
+DTSTAMP:20140429T161500Z
+DTSTART:20140429T161500Z
+DTEND:20140429T180000Z
+SUMMARY:LiTHehack
+LOCATION:Gruvan, TP4034
+DESCRIPTION:Alla tider är preliminära med akademisk kvart och vi reserverar oss för schema- och temaändringar.
+
+http://lithehack.se
+https://facebook.com/lithehack
+https://twitter.com/lithehack
+END:VEVENT
+BEGIN:VEVENT
+UID:4b4b85ec266d5487676fbcb7be9ba8dc@lithehack.se
+DTSTAMP:20140501T161500Z
+DTSTART:20140501T161500Z
+DTEND:20140501T180000Z
+SUMMARY:LiTHehack
+LOCATION:Gruvan, TP4034
+DESCRIPTION:Alla tider är preliminära med akademisk kvart och vi reserverar oss för schema- och temaändringar.
+
+http://lithehack.se
+https://facebook.com/lithehack
+https://twitter.com/lithehack
+END:VEVENT
+BEGIN:VEVENT
+UID:4b4b85ec266d5487676fbcb7be9ba8dc@lithehack.se
+DTSTAMP:20140506T161500Z
+DTSTART:20140506T161500Z
+DTEND:20140506T180000Z
+SUMMARY:LiTHehack
+LOCATION:Gruvan, TP4034
+DESCRIPTION:Alla tider är preliminära med akademisk kvart och vi reserverar oss för schema- och temaändringar.
+
+http://lithehack.se
+https://facebook.com/lithehack
+https://twitter.com/lithehack
+END:VEVENT
+BEGIN:VEVENT
+UID:4b4b85ec266d5487676fbcb7be9ba8dc@lithehack.se
+DTSTAMP:20140508T161500Z
+DTSTART:20140508T161500Z
+DTEND:20140508T180000Z
+SUMMARY:LiTHehack
+LOCATION:Gruvan, TP4034
+DESCRIPTION:Alla tider är preliminära med akademisk kvart och vi reserverar oss för schema- och temaändringar.
+
+http://lithehack.se
+https://facebook.com/lithehack
+https://twitter.com/lithehack
+END:VEVENT
+BEGIN:VEVENT
+UID:4b4b85ec266d5487676fbcb7be9ba8dc@lithehack.se
+DTSTAMP:20140513T161500Z
+DTSTART:20140513T161500Z
+DTEND:20140513T180000Z
+SUMMARY:LiTHehack
+LOCATION:Gruvan, TP4034
+DESCRIPTION:Alla tider är preliminära med akademisk kvart och vi reserverar oss för schema- och temaändringar.
+
+http://lithehack.se
+https://facebook.com/lithehack
+https://twitter.com/lithehack
+END:VEVENT
+BEGIN:VEVENT
+UID:4b4b85ec266d5487676fbcb7be9ba8dc@lithehack.se
+DTSTAMP:20140515T161500Z
+DTSTART:20140515T161500Z
+DTEND:20140515T180000Z
+SUMMARY:LiTHehack
+LOCATION:Gruvan, TP4034
+DESCRIPTION:Alla tider är preliminära med akademisk kvart och vi reserverar oss för schema- och temaändringar.
+
+http://lithehack.se
+https://facebook.com/lithehack
+https://twitter.com/lithehack
+END:VEVENT
 END:VCALENDAR
