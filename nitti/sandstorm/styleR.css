@@ -1,0 +1,84 @@
+
+html { 
+  background: url(img/darudehp.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+table{
+	width:500px;
+	border: 3px solid blue;
+	text-align: center;
+	margin:0 auto 5px auto;
+	background-image: url("img/table.gif");
+	
+}
+table img{
+	float:left;
+}
+td{
+	background-color:red;
+	color:blue;
+	text-decoration: underline;
+	font-size: 30px;
+	border: 3px solid blue;
+}
+tr{
+	border: 3px solid blue;
+}
+.dance{
+	float:left;
+}
+.first{
+	text-decoration: underline;
+	font-size: 25px;
+	color:#18ff00;
+	width:500px;
+	height:auto;
+	margin:5px auto 5px auto;
+	z-index:51;
+	border:1px solid red;
+	padding: 0 10px;
+
+}
+.first:hover{
+	color:red;
+	border:1px solid #18ff00;
+	background-image: url("img/background.gif");
+}
+.second{
+	text-decoration: underline;
+	font-size: 25px;
+	font-family:arial;
+	color:#00fff0;
+	width:500px;
+	height:auto;
+	margin:5px auto 5px auto;
+	z-index:51;
+	border:1px solid red;
+	padding: 0 10px;
+}
+.second:hover{
+	color:yellow;
+	border:1px solid white;
+	background-image: url("img/bg1.gif");
+}
+.third{
+	text-decoration: underline;
+	font-size: 25px;
+	font-family:century gothic;
+	color:blue;
+	width:500px;
+	height:auto;
+	margin:5px auto 5px auto;
+	z-index:51;
+	border:1px solid red;
+	padding: 0 10px;
+
+}
+.third:hover{
+	color:orange;
+	border:1px solid #4a0444;
+	background-image: url("img/bg2.gif");
+}
