@@ -62,6 +62,14 @@ a:hover {
 	margin-bottom: 10px;
 }
 
+.col-sm-8 {
+	padding: 0 40pt;
+}
+
+.img-responsive {
+	padding-top: 30pt;
+}
+
 /* Dat bird though. Mhm. */
 #bird {
 	width:100%;
