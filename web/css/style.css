@@ -79,3 +79,11 @@ a:hover {
 #eye {
     fill: #fff;
 }
+
+#logo {
+	padding-top: 30pt;
+}
+
+.info {
+	padding: 0 10pt;
+}
