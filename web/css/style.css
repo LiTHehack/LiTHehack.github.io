@@ -1,4 +1,3 @@
-
 /*
 font-fix
 http://www.adtrak.co.uk/blog/font-face-chrome-rendering/
@@ -7,36 +6,41 @@ http://www.adtrak.co.uk/blog/font-face-chrome-rendering/
 	font-family: 'Source Sans Pro';
 	src: url('../fonts/SourceSansPro-Light.eot');
 	src: url('../fonts/SourceSansPro-Light.eot?#iefix') format('eot'),
-		 url('../fonts/SourceSansPro-Light.svg') format('svg'),
-		 url('../fonts/SourceSansPro-Light.woff') format('woff'),
-		 url('../fonts/SourceSansPro-Light.ttf') format('truetype');
+		url('../fonts/SourceSansPro-Light.svg') format('svg'),
+		url('../fonts/SourceSansPro-Light.woff') format('woff'),
+		url('../fonts/SourceSansPro-Light.ttf') format('truetype');
 	font-style: normal;
 	font-weight: 300;
 }
+
 @font-face {
 	font-family: 'Source Sans Pro';
 	src: url('../fonts/SourceSansPro-Bold.eot');
 	src: url('../fonts/SourceSansPro-Bold.eot?#iefix') format('eot'),
-		 url('../fonts/SourceSansPro-Bold.svg') format('svg'),
-		 url('../fonts/SourceSansPro-Bold.woff') format('woff'),
-		 url('../fonts/SourceSansPro-Bold.ttf') format('truetype');
+		url('../fonts/SourceSansPro-Bold.svg') format('svg'),
+		url('../fonts/SourceSansPro-Bold.woff') format('woff'),
+		url('../fonts/SourceSansPro-Bold.ttf') format('truetype');
 	font-style: normal;
 	font-weight: 700;
 }
 
-html, body {
-    background-color: #431B29;
-    color: #fff;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
-    font-size: 15px;
+html,
+body {
+	background-color: #431B29;
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
 }
 
 /* Typography! */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
 	/*color: #D01E4F;*/
 	font-weight: bold;
 }
+
 h1 {
 	font-size: 350%;
 }
@@ -44,15 +48,15 @@ h1 {
 /* Links! */
 a {
 	color: #fff;
-	border-bottom: 1px dotted #fff;
+	text-decoration: underline;
 	-webkit-transition: all 0.1s ease-in-out;
-	   -moz-transition: all 0.1s ease-in-out;
-	    -ms-transition: all 0.1s ease-in-out;
-	     -o-transition: all 0.1s ease-in-out;
-			transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
 }
+
 a:hover {
-	border-bottom: 1px solid #D01E4F;
 	color: #D01E4F;
 	text-decoration: none;
 }
@@ -64,20 +68,20 @@ a:hover {
 
 /* Dat bird though. Mhm. */
 #bird {
-	width:100%;
+	width: 100%;
 }
 
 #body {
-    fill: #D01E4F;
+	fill: #D01E4F;
 }
 
 #pupil {
-    fill: #000;
+	fill: #000;
 }
 
 
 #eye {
-    fill: #fff;
+	fill: #fff;
 }
 
 #logo {
