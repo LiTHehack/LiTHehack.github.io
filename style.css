@@ -189,6 +189,6 @@ footer {
   justify-content: space-around;
 }
 
-#icon {
-
+.icon {
+  width: 5vw;
 }
