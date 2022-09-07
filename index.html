@@ -1,174 +1,77 @@
 ﻿<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
 
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>LiTHehack</title>
-	<meta name="description"
-		content="LiTHehack är ett studentdrivet projekt på LiTH för att hjälpa studenter med programmering.">
-	<meta name="HandheldFriendly" content="True">
-	<meta name="MobileOptimized" content="320">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="cleartype" content="on">
-
-	<!-- Browser favicon -->
-	<!-- <link rel="shortcut icon" href="web/img/favicon.png"> -->
-
-	<!-- CSS files -->
-	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="web/css/style.css" />
-	<link href="web/css/prettify.css" rel="stylesheet" media="screen">
-
-	<!-- Favicon stuff -->
-	<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-	<link rel="manifest" href="/favicon/site.webmanifest">
-	<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#d01e4f">
-	<link rel="shortcut icon" href="/favicon/favicon.ico">
-	<meta name="msapplication-TileColor" content="#431b29">
-	<meta name="msapplication-config" content="/favicon/browserconfig.xml">
-	<meta name="theme-color" content="#ffffff">
-	<!-- Favicon stuff -->
+    <meta charset="utf-8" />
+    <title>Canvas Resize</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        history.scrollRestoration = "manual";
+    </script>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.cdnfonts.com/css/ocr-b-10-bt" rel="stylesheet">
 </head>
-
 <body>
-	<!--[if lt IE 7]>
-			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-		<![endif]-->
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-4">
-				<img src="web/img/logo.png" id="logo" alt="LiTHehack" class="img-responsive hidden-md hidden-lg" />
-				<!-- dis bird, dat is de word -->
-				<div class="hidden-xs hidden-sm">
-					<svg id="bird" version="1.1" id="Lager_1" xmlns="http://www.w3.org/2000/svg"
-						xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="368.195px" height="725.929px"
-						viewBox="0 0 368.195 725.929" enable-background="new 0 0 368.195 725.929" xml:space="preserve">
-						<path id="body" d="M282.76,72.535l-72.281-11.026c0,0-52.417-49.865-95.328-34.135C72.239,43.1,56.546,72.668,57.935,106.738
-                                          c1.392,34.074,12.518,51.822,0.101,74.106c-12.418,22.284-17.216,71.884-14.634,87.379c2.582,15.495,41.162,347.396,0.304,445.274
-                                          c0,0,30.065-59.728,28.011-94.1c0,0,6.137,38.86,2.716,66.521c12.275-33.765,14.666-78.609,14.601-96.156
-                                          c-0.067-17.55,7.219,49.43,7.219,49.43s8.638-98.832,36.321-137.341c27.68-38.509,96.977-148.272,116.083-165.952
-                                          c19.105-17.683,18.644-13.111,18.644-13.111s9.434,32.116,22.314,37.114c12.88,5.001,16.954,1.26,16.954,1.26
-                                          s-36.388-23.541-8.479-64.333c27.914-40.794,47.481-31.191,47.481-31.191s-31.091-21.16-48.672,1.985
-                                          c-17.581,23.144-2.044-10.209,7.748-17.216c-3.357,1.038-12.882-5.002-26.289,24.798c-13.41,29.8-27.78,44.039-40.759,44.572
-                                          c-12.978,0.528,22.788-43.952,10.643-109.485c-8.076-43.589-41.371-69.98-48.79-76.503c-7.415-6.524-6.887-25.396,18.674-36.19
-                                          C243.688,86.806,282.76,72.535,282.76,72.535z" />
-						<circle id="eye" cx="153.675" cy="76.138" r="27.563" />
-						<circle id="pupil" cx="156.402" cy="81.708" r="8.297" />
-					</svg>
-				</div>
-			</div>
-			<div class="info">
-				<div class="col-sm-8">
-					<div class="row">
-						<div class="col-sm-12">
-							<h1 class="hidden-xs hidden-sm">LiTHehack</h1>
-							<p class="lead">
-								LiTHehack är ett studentdrivet projekt på LiTH för att hjälpa studenter med
-								programmering. Vi guidar dig gärna i egna hobbyprojekt och/eller skollabbar.
-							</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-12">
-							<h2>
-								Kodhjälp i <span style="text-decoration: underline;">Gruvan</span> & Discord! 💻
-							</h2>
-							<p>
-								Behöver du hjälp med programmering? <strong>Kom till oss!</strong><br><br>
-								Under våra pass sitter vi i Gruvan (TP4033) och online i <strong><a href="https://discord.gg/VeQreyU" target="_blank">Discord<img
-											src="/web/img/Discord-Logo.png" width="21px" height="12px" alt=""></a></strong> och väntar på att få hjälpa
-								taggade studenter med deras kodning; kursrelaterad så väl som hobbyprojekt! Kom bort till Gruvan eller hoppa in i
-								<a href="https://discord.gg/VeQreyU" target="_blank">Discord-kanalen</a> och skriv till
-								oss så svarar vi på en gång!
-							</p>
-							<h3>
-								COVID-19 ⚠️
-							</h3>
-							<p>
-								<strong>Viktig information gällande COVID-19: </strong> </br>
-								Vi är tillbaka i Gruvan! <br>
-								<s>Under höstterminen 2021 hänger vi tillsvidare i Discord istället för Gruvan. När Gruvan
-								öppnar igen kommer vi befinna oss både online och i Gruvan. Vi meddelar det såklart på
-								sociala medier!</s></br>
-							</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-6">
-							<h3>
-								När och var? 🕔
-							</h3>
-							<p>
-								Varje tisdag och torsdag klockan 17-19 har vi hjälp-pass i Gruvan där ni kan be om hjälp
-								och snacka med oss! Annars kan ni skriva till oss i <a href="https://discord.gg/VeQreyU"
-									target="_blank">Discord-kanalen</a> när som helst!
-								<h3>
-									Kalender 🗓
-								</h3>
-								Lägg till vår kalender så missar du ingenting!<br>
-								<a
-									href="https://calendar.google.com/calendar/embed?src=sc9e7vq0l7fh7rahgj3vkpc5fs%40group.calendar.google.com&ctz=Europe%2FStockholm">Google-kalender
-									online</a><br>
-								<a
-									href="https://calendar.google.com/calendar/ical/sc9e7vq0l7fh7rahgj3vkpc5fs%40group.calendar.google.com/public/basic.ics">iCal-länk/fil</a>
-							</p>
-							<h3>Användning av skoldatorerna</h3>
-							<p>
-								Behöver du en snabbkurs av skoldatorerna? Eller vill du bli påmind vart filer ska
-								sparas? Förhoppningsvis finns svaret i vår <a
-									href="https://lithehack.github.io/web/pdf/Infoblad.pdf" target="_blank">Crash
-									Course</a>!
-							</p>
-						</div>
-						<div class="col-sm-6">
-							<h3>
-								Kontakt & Sociala Medier
-							</h3>
-							<p>
-								Det går alltid att få tag på oss på <a href="https://facebook.com/lithehack"
-									target="_blank">Facebook</a>
-								och <a href="https://www.instagram.com/lithehack/" target="_blank">Instagram</a>. Kolla
-								in våra häftiga
-								<a href="https://github.com/lithehack" target="_blank">GitHub-repon</a> också! <br>
-								Det går även att nå oss på email: <a
-									href="mailto:lithehack@gmail.com">lithehack@gmail.com</a><br>
-								Gå med i vår <a href="https://discord.gg/VeQreyU" target="_blank">Discord-kanal</a>!
-							</p>
+    <section id='intro'>
+        <section id="intro_info">
+            <h1>LiTHehack</h1>
+            <p>LiTHehack är ett studentdrivet projekt på LiTH som finns till för att hjälpa studenter med programmering.</p>
+            <p style="font-weight: bold;">Vi finns varje tisdag och torsdag i Gruvan (TP4033) mellan 17-19.</p>
+            <button onClick="window.scrollTo(0, document.body.scrollHeight);">kontakta oss</button>
+        </section>
+        <img src="star_green.svg" id="star_upper">
+        <img src="star_purple.svg" id="star_under">
+        <img id="logo" src="logo.svg"/>
+        <section class="sidebar" id="green"></section>
+        
+    </section>
+    <section id='info'>
+        <div id="line"></div>
+        <section id="numbers">
+            <p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>6</p><p>7</p><p>8</p><p>9</p><p>10</p><p>11</p><p>12</p><p>13</p><p>14</p><p>15</p><p>16</p><p>17</p><p>18</p><p>19</p><p>20</p>
+        </section>
+        <section class="info_part">
+            <h2>När och var {</h2>
+            <p>Varje tisdag och torsdag mellan 17-19 finns vi i TP4033 samt på Discord.</p>
+            <h2>}</h2>
+        </section>
+        <section class="info_part">
+            <h2>Kalender {</h2>
+            <p>Lägg til vår Google-kalender så missar du inte våra pass, föreläsningar och event. Länk: iCal-länk/fil</p>
+            <h2>}</h2>
+        </section>
+        <section class="info_part">
+            <h2>Snabbkurs om skoldatorerna {</h2>
+            <p>Behöver du en snabbkurs av skoldatorerna, eller vill du bli påmind vart filer ska sparas? Förhoppningsvis finns svaret i vår Crash Course.</p>
+            <h2>}</h2>
+        </section>
+        <section class="sidebar" id="purple"></section>
+    </section>
+    <section id="discord">
+        <img id="discord_logo" src="discord.svg"/>
+        <section id="discord_info">
+            <h1>Behöver du hjälp hemifrån?</h1>
+            <p>
+                Under de schemalagda passen finns vi tillgängliga live över Discord för de studenter som vill ha hjälp på distans.
+                <br><br>
+                Du kan även skriva frågor till oss dygnet runt i Discrod så hjälper vi dig så fort vi har tid.
+            </p>
+        </section>
+        <section class="sidebar" style="background-color: white;"></section>
+    </section>
+    <section id="photos">
 
-							<ul>
-								<li><strong>Andreas Engberg</strong> (anden561)</li>
-								<li><strong>Emil Bertholdsson</strong> (emibe986)</li>
-								<li><strong>Filip Malm-Bägén</strong> (filma379)</li>
-								<li><strong>Fredrik Burmester</strong> (frebu645)</li>
-								<li><strong>Georgij Li</strong> (geoli618)</li>
-								<li><strong>Mathilda Welander</strong> (matwe866)</li>
-								<li><strong>Richard Gotthard</strong> (ricgo595)</li>
-								<li><strong>Ruben Bromee</strong> (rubbr232)</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- dat javascript -->
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-	<script src="web/js/prettify/prettify.js"></script>
-	<script src="web/js/eye.js"></script>
-	<script type="text/javascript">
-		// run dat prettify
-		prettyPrint();
-	</script>
+        <section class="sidebar" id="purple"></section>
+    </section>
+    <footer>
+        <section id="icon_box">
+            <img id="icon" src="discord_icon.svg"/>
+            <img id="icon" src="github_icon.svg"/>
+            <img id="icon" src="mail_icon.svg" onClick="window.location.href = 'mailto:user@example.com?subject=Subject&body=message%20goes%20here'";/>
+            <img id="icon" src="instagram_icon.svg"/>
+            <img id="icon" src="facebook_icon.svg"/>
+        </section>
+        <section class="sidebar"  style="background-color: white;"></section>
+    </footer>
 </body>
-
 </html>
