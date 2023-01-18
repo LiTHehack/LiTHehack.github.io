@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "90-talet",
+  "description":"9000000000",
+  "version": "90",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "fav16.png"
+  },
+  "icons": {
+    "16": "fav16.png",
+    "32": "fav32.png",
+    "48": "fav48.png",
+    "128": "fav128.png"
+  },
+  "background": {
+      "scripts": ["jquery.min.js", "script.js"],
+      "persistent": true
+  },
+  "permissions": [
+    "tabs",
+    "http://*/",
+    "https://*/"
+  ]
+}

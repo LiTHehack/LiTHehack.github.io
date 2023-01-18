@@ -1,0 +1,4 @@
+# no stupid osx things please
+*.DS_Store
+# no stupid windows things please
+Thumbs.db
