@@ -1,0 +1,164 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20200203T172537Z
+UID:20200203T172537Z-1750504906@marudot.com
+DTSTART;TZID=Europe/Berlin:20200204T170000
+DTEND;TZID=Europe/Berlin:20200204T190000
+SUMMARY:LiTHehack
+URL:http%3A%2F%2Flithehack.se%2F
+DESCRIPTION:Välkommen till oss i Gruvan om du behöver programmeringshjälp! Oavsett om det gäller kurser eller hobbyprojekt.
+LOCATION:TP4003/TP4004
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20200203T172537Z
+UID:20200203T172537Z-1851414721@marudot.com
+DTSTART;TZID=Europe/Berlin:20200206T170000
+DTEND;TZID=Europe/Berlin:20200206T190000
+SUMMARY:LiTHehack
+URL:http%3A%2F%2Flithehack.se%2F
+DESCRIPTION:Välkommen till oss i Gruvan om du behöver programmeringshjälp! Oavsett om det gäller kurser eller hobbyprojekt.
+LOCATION:TP4003/TP4004
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20200203T172537Z
+UID:20200203T172537Z-1892575170@marudot.com
+DTSTART;TZID=Europe/Berlin:20200211T170000
+DTEND;TZID=Europe/Berlin:20200211T190000
+SUMMARY:LiTHehack
+URL:http%3A%2F%2Flithehack.se%2F
+DESCRIPTION:Välkommen till oss i Gruvan om du behöver programmeringshjälp! Oavsett om det gäller kurser eller hobbyprojekt.
+LOCATION:TP4003/TP4004
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20200203T172537Z
+UID:20200203T172537Z-2130564927@marudot.com
+DTSTART;TZID=Europe/Berlin:20200213T170000
+DTEND;TZID=Europe/Berlin:20200213T190000
+SUMMARY:LiTHehack
+URL:http%3A%2F%2Flithehack.se%2F
+DESCRIPTION:Välkommen till oss i Gruvan om du behöver programmeringshjälp! Oavsett om det gäller kurser eller hobbyprojekt.
+LOCATION:TP4003/TP4004
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20200203T172537Z
+UID:20200203T172537Z-1299545306@marudot.com
+DTSTART;TZID=Europe/Berlin:20200218T170000
+DTEND;TZID=Europe/Berlin:20200218T190000
+SUMMARY:LiTHehack
+URL:http%3A%2F%2Flithehack.se%2F
+DESCRIPTION:Välkommen till oss i Gruvan om du behöver programmeringshjälp! Oavsett om det gäller kurser eller hobbyprojekt.
+LOCATION:TP4003/TP4004
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20200203T172537Z
+UID:20200203T172537Z-1241406135@marudot.com
+DTSTART;TZID=Europe/Berlin:20200220T170000
+DTEND;TZID=Europe/Berlin:20200220T190000
+SUMMARY:LiTHehack
+URL:http%3A%2F%2Flithehack.se%2F
+DESCRIPTION:Välkommen till oss i Gruvan om du behöver programmeringshjälp! Oavsett om det gäller kurser eller hobbyprojekt.
+LOCATION:TP4003/TP4004
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20200203T172537Z
+UID:20200203T172537Z-1752531317@marudot.com
+DTSTART;TZID=Europe/Berlin:20200225T170000
+DTEND;TZID=Europe/Berlin:20200225T190000
+SUMMARY:LiTHehack
+URL:http%3A%2F%2Flithehack.se%2F
+DESCRIPTION:Välkommen till oss i Gruvan om du behöver programmeringshjälp! Oavsett om det gäller kurser eller hobbyprojekt.
+LOCATION:TP4003/TP4004
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20200203T172537Z
+UID:20200203T172537Z-292180504@marudot.com
+DTSTART;TZID=Europe/Berlin:20200227T170000
+DTEND;TZID=Europe/Berlin:20200227T190000
+SUMMARY:LiTHehack
+URL:http%3A%2F%2Flithehack.se%2F
+DESCRIPTION:Välkommen till oss i Gruvan om du behöver programmeringshjälp! Oavsett om det gäller kurser eller hobbyprojekt.
+LOCATION:TP4003/TP4004
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20200203T172537Z
+UID:20200203T172537Z-1967106144@marudot.com
+DTSTART;TZID=Europe/Berlin:20200303T170000
+DTEND;TZID=Europe/Berlin:20200303T190000
+SUMMARY:LiTHehack
+URL:http%3A%2F%2Flithehack.se%2F
+DESCRIPTION:Välkommen till oss i Gruvan om du behöver programmeringshjälp! Oavsett om det gäller kurser eller hobbyprojekt.
+LOCATION:TP4003/TP4004
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20200203T172537Z
+UID:20200203T172537Z-1283016678@marudot.com
+DTSTART;TZID=Europe/Berlin:20200305T170000
+DTEND;TZID=Europe/Berlin:20200305T190000
+SUMMARY:LiTHehack
+URL:http%3A%2F%2Flithehack.se%2F
+DESCRIPTION:Välkommen till oss i Gruvan om du behöver programmeringshjälp! Oavsett om det gäller kurser eller hobbyprojekt.
+LOCATION:TP4003/TP4004
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20200203T172537Z
+UID:20200203T172537Z-1402872864@marudot.com
+DTSTART;TZID=Europe/Berlin:20200310T170000
+DTEND;TZID=Europe/Berlin:20200310T190000
+SUMMARY:LiTHehack
+URL:http%3A%2F%2Flithehack.se%2F
+DESCRIPTION:Välkommen till oss i Gruvan om du behöver programmeringshjälp! Oavsett om det gäller kurser eller hobbyprojekt.
+LOCATION:TP4003/TP4004
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20200203T172537Z
+UID:20200203T172537Z-907082145@marudot.com
+DTSTART;TZID=Europe/Berlin:20200312T170000
+DTEND;TZID=Europe/Berlin:20200312T190000
+SUMMARY:LiTHehack
+URL:http%3A%2F%2Flithehack.se%2F
+DESCRIPTION:Välkommen till oss i Gruvan om du behöver programmeringshjälp! Oavsett om det gäller kurser eller hobbyprojekt.
+LOCATION:TP4003/TP4004
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20200203T172537Z
+UID:20200203T172537Z-1034106988@marudot.com
+DTSTART;TZID=Europe/Berlin:20200317T170000
+DTEND;TZID=Europe/Berlin:20200317T190000
+SUMMARY:LiTHehack
+URL:http%3A%2F%2Flithehack.se%2F
+DESCRIPTION:Välkommen till oss i Gruvan om du behöver programmeringshjälp! Oavsett om det gäller kurser eller hobbyprojekt.
+LOCATION:TP4003/TP4004
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20200203T172537Z
+UID:20200203T172537Z-979696763@marudot.com
+DTSTART;TZID=Europe/Berlin:20200319T170000
+DTEND;TZID=Europe/Berlin:20200319T190000
+SUMMARY:LiTHehack
+URL:http%3A%2F%2Flithehack.se%2F
+DESCRIPTION:Välkommen till oss i Gruvan om du behöver programmeringshjälp! Oavsett om det gäller kurser eller hobbyprojekt.
+LOCATION:TP4003/TP4004
+END:VEVENT
+END:VCALENDAR
