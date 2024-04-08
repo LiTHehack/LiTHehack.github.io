@@ -1,0 +1,71 @@
+[
+    {
+        "Kurs-id": "TND012",
+        "KursNamn": "Programmering grk",
+        "Period": "HT1",
+        "Studentgrupp": "MT1, ED1",
+        "StudieInfo": "https://studieinfo.liu.se/kurs/TND012",
+        "KursInfo": "Kursen ämnar att introducera studenter till programmering via appliceringen av grundläggande koncept inom C++",
+        "KursDelar": "Kursen behandlar if-satser, looper, funktioner, vektorer och I/O streams",
+        "Tips": "För att använda C++ kommer CMake att användas för att bygga projektet. ",
+        "Tenta": "Datortenta som kommer använda sig av Windows, CMake och Visual Studio då det kommer att användas under kursens tenta"
+    },
+    {
+        "Kurs-id": "TND002",
+        "KursNamn": "Objektorienterad programmering",
+        "Period": "HT2",
+        "Studentgrupp": "MT1, KTS2",
+        "StudieInfo": "https://studieinfo.liu.se/kurs/TND002",
+        "KursInfo": "Kursen ämnar att introducera studenter till objektorienterad programmering via användningen av programmeringsspråket Java",
+        "KursDelar": "Kursen behandlar klasser, arv, polymorfism och abstrakta klasser",
+        "Tips": "Kursen använder sig av klassdiagram för att visualisera hur varje klass är uppbyggd. LÄGG TILL EXEMPEL",
+        "Tenta": "Datortenta som kommer använda sig av Windows, "
+        
+    },
+    {
+        "Kurs-id": "TNM115",
+        "KursNamn": "Introduktion till webbprogrammering och -publicering",
+        "Period": "VT1",
+        "Studentgrupp": "MT1",
+        "StudieInfo": "https://studieinfo.liu.se/kurs/TNM115",
+        "KursInfo": "Kursen ämnar att introducera studenter till webbprogrammering via användningen av programmeringsspråken HTML, CSS och JavaScript, Node.js och databashanteraren MongoDB",
+        "KursDelar": "Kursen behandlar utvecklingen av en webbapplikation från grunden, inklusive design och databashantering",
+        "Tips": "Kursen använder sig av Node.js för att skapa en server som kopplar samman databasen med webbapplikationen",
+        "Tenta": "Kursen har ingen tenta utan examineras genom redovisningen av fem labbar och ett projekt av 4-5 medlemmar"
+    },
+    {
+        "Kurs-id": "TNM046",
+        "KursNamn": "Datorgrafik",
+        "Period": "VT2",
+        "Studentgrupp": "MT1",
+        "StudieInfo": "https://studieinfo.liu.se/kurs/TNM115",
+        "KursInfo": "Kursen ämnar att introducera studenter till grafikprogrammering via användningen av programmeringsspråket C++ och biblioteket OpenGL, gpu-programmering med språket GLSL",
+        "KursDelar": "Kursen behandlar 2D- och 3D-grafik, texturer, ljus och skuggor",
+        "Tips": "Kursen använder sig av ett långt pdf dokument som täcker alla labbar inom kursen. PDF filen är strukturerad med ett struktur av att alltid beskriva vad som ska implementeras och sedan hur det ska implementeras. Det är viktigt att läsa igenom hela dokument och exempelvis markera de stycken som har implementeras och de stycket som ni är osäkra på för att senare kunna kontrollera med labbasistenter eller labbhandledare.",
+        "Tenta": "Kursen har ingen tenta utan examineras genom redovisningen av fem labbar och ett projekt av 4-5 medlemmar"
+    },
+    {
+        "id": 5,
+        "name": "John Johnson"
+    },
+    {
+        "id": 6,
+        "name": "Jane Johnson"
+    },
+    {
+        "id": 7,
+        "name": "John Brown"
+    },
+    {
+        "id": 8,
+        "name": "Jane Brown"
+    },
+    {
+        "id": 9,
+        "name": "John White"
+    },
+    {
+        "id": 10,
+        "name": "Jane White"
+    }
+]
