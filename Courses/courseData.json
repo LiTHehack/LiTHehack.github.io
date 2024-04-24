@@ -65,7 +65,14 @@
         "name": "John White"
     },
     {
-        "id": 10,
-        "name": "Jane White"
+        "Kurs-id": "TND004",
+        "KursNamn": "Datastrukturer",
+        "Period": "VT2",
+        "Studentgrupp": "MT3",
+        "StudieInfo": "https://studieinfo.liu.se/kurs/TND004",
+        "KursInfo": "Kursen ämnar att introducera studenter till datastrukturer och algoritmer via användningen av programmeringsspråket C++",
+        "KursDelar": "Kursen behandlar O notation, stackar, köer, träd och grafer",
+        "Tips": "Labbarna kräver att Address Sanitizer är aktiverad i projektinställningarna, i visual stuido är det alternativet placerat under C/C++ -> Address Sanitizer under Project properties. Lab 3 kräver användningen av VCPKG",
+        "Tenta": "Kursen har en tenta där kursliteraturen är tillåten att använda under tentan"
     }
 ]
